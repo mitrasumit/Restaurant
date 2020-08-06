@@ -1,0 +1,255 @@
+body {
+  background-color: #323232;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  padding-top: 10px;
+  color: #393232;
+  font-size: 33px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+h3 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+img {
+  height: 222px;
+}
+span{
+  font-size: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8d6262;
+  text-decoration: none;
+}
+nav{
+  margin:0;
+  border:none;
+}
+.navbar{
+  background-color: #333;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar{
+  margin:0;
+  border:none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar-nav a:hover {
+  background-color: #8d6262;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.pic img {
+  height: 500px;
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Lobster', sans-serif;
+  font-size: 37px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+}
+
+.pic {
+  margin: 0;
+  position: relative;
+}
+
+.first-section {
+  background-color: #323232;
+  margin: 75px 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.second-section {
+  background-color: #4d4545;
+}
+
+.grid-container {
+  display: inline-block;
+  width: 100%
+}
+.grid-container img{
+  width: 300px;
+}
+.third-section {
+  background-color: #8d6262;
+  margin: 0;
+}
+
+.fourth-section {
+  background-color: #323232;
+  margin: 0;
+  border: none;
+}
+
+.container-fluid img {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  height: 135px;
+}
+
+.fifth-section {
+  background-color: #4d4545;
+  line-height: 2;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.sixth-section {
+  background-color: #8d6262;
+  margin-top: 0;
+  border: 0;
+}
+
+.seventh-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #323232;
+  margin: 0;
+}
+
+.timing {
+  padding: 0 0;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.contact {
+  color: white;
+  padding-top: 10;
+  margin-top: 0;
+  line-height: 2;
+  font-size: 12px;
+}
+.extra {
+  color: #4d4545;
+  font-size: 20 px;
+  line-height: 2;
+  width: 70%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}
+.eight-section {
+  background-color: #4d4545;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.eight-section a:hover {
+  background-color: #8d6262;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.eight-section a.active {
+  background-color: #8d6262;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  padding-left: 30px;
+  background: #323232;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  padding-left: 30px;
+  background: #323232;
+  color: white;
+}
+
+.fa-instagram {
+  padding-left: 30px;
+  background: #323232;
+  color: white;
+}
+
+#logo {
+  font-size: 27px;
+}
